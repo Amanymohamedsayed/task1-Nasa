@@ -1,0 +1,29 @@
+table, td, th {
+    border: 3px dotted black;
+    text-align: center;
+}
+table {
+    background-image: url("/image/planet.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: top;
+    border-collapse: collapse;
+    width: 100%;
+}
+th,
+td {
+    padding: 15px;
+}
+th{
+    background-color: #C4DFEB;
+    opacity: 0.9;
+}
+p{
+    color: red;
+    font-family: 'Roboto';
+    text-align: center;
+}
+mark{
+    background-color: red;
+    color: white;
+}
